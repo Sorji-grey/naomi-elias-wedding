@@ -1,0 +1,4 @@
+frames/*
+!frames/f_000.webp
+img/renders/
+.DS_Store

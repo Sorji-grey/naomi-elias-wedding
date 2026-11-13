@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naomi & Elias — 12 June 2027</title>
+<meta name="description" content="Naomi and Elias are getting married on Saturday 12 June 2027 in the courtyard at Hollin Court. A placeholder wedding site with invented names and details.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="frames/f_000.webp">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="chrome">
+  <a class="mark" href="#top" aria-label="Naomi and Elias, back to top">
+    <span class="mark__full">Naomi <i>&amp;</i> Elias</span><span class="mark__short">N <i>&amp;</i> E</span>
+  </a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">
+    <span class="menu-btn__label">Menu</span>
+    <span class="menu-btn__dot" aria-hidden="true"><i></i><i></i></span>
+  </button>
+</header>
+<div class="rail" aria-hidden="true"><span class="rail__num">01</span><span class="rail__text">Welcome</span></div>
+
+<nav class="menu" id="menu" aria-label="Site" hidden>
+  <ol>
+    <li><a href="#top"><em>01</em>Welcome</a></li>
+    <li><a href="#story"><em>02</em>Our story</a></li>
+    <li><a href="#day"><em>03</em>The day</a></li>
+    <li><a href="#place"><em>04</em>The place</a></li>
+    <li><a href="#rsvp"><em>05</em>RSVP</a></li>
+  </ol>
+  <p class="menu__note">Saturday 12 June 2027 · Hollin Court. A placeholder wedding with invented names.</p>
+</nav>
+
+<main id="top">
+
+  <!-- 01 HERO: scroll brings the camera down from above the courtyard onto the couple,
+       then the picture folds into an arch-shaped frame and hands over to the page -->
+  <section class="flight" data-rail="01|Welcome" aria-label="Introduction">
+    <div class="flight__stage">
+      <div class="flight__frame">
+        <canvas class="flight__canvas" aria-hidden="true"></canvas>
+        <img class="flight__poster" src="frames/f_000.webp" alt="A courtyard seen from directly above: a ring of petals on pale paving with a bride and groom at its centre, guests gathered around, lawns, an autumn tree and brick apartment blocks.">
+      </div>
+
+      <div class="ring" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><circle class="ring__track" cx="50" cy="50" r="46"/><circle class="ring__arc" cx="50" cy="50" r="46" pathLength="100"/></svg>
+        <span class="ring__label">Scroll</span>
+      </div>
+
+      <div class="lines">
+        <h1 class="line line--names is-on" data-from="0" data-to="0.22">
+          <i class="line__eyebrow">Saturday 12 June 2027 · Hollin Court</i>
+          <span><b>Naomi <em>&amp;</em> Elias</b></span>
+        </h1>
+        <p class="line" data-from="0.27" data-to="0.52">
+          <span><b>are getting married</b></span>
+          <span><b>where they first met.</b></span>
+        </p>
+        <p class="line" data-from="0.57" data-to="0.8">
+          <i class="line__eyebrow">Under the arch, three o'clock</i>
+          <span><b>Come and stand</b></span>
+          <span><b>with us.</b></span>
+        </p>
+      </div>
+
+      <p class="flight__sign" aria-hidden="true"><span>Naomi <em>&amp;</em> Elias</span><small>12 · 06 · 2027</small></p>
+    </div>
+  </section>
+
+  <!-- 02 OUR STORY -->
+  <section class="story" id="story" data-rail="02|Our story">
+    <div class="story__copy">
+      <p class="label reveal">(02) Our story</p>
+      <h2 class="reveal">Two flats, one courtyard, <em>nine years.</em></h2>
+      <p class="lede reveal">Naomi moved into the third floor of the east block in the spring of 2018. Elias had been on the second floor of the west block for a year, and had opinions about the bins.</p>
+      <p class="reveal">They met properly at a residents' meeting about the lawn. She wanted wildflowers; he wanted somewhere to kick a ball. The lawn got both, and they got each other's numbers "for the committee".</p>
+      <p class="reveal">He proposed under the big tree on a Tuesday, with the neighbours pretending not to watch from their balconies. It only seemed right to come back to the same paving stones to say the rest out loud.</p>
+      <p class="story__count reveal"><span data-countdown>—</span> days to go</p>
+    </div>
+    <figure class="arch reveal"><img src="img/couple.webp" loading="lazy" alt="The bride in a white dress and veil and the groom in a navy suit, holding hands and laughing under an arch of white and blush roses, with brick apartment blocks behind."></figure>
+  </section>
+
+  <!-- 03 THE DAY -->
+  <section class="day" id="day" data-rail="03|The day">
+    <figure class="day__img"><img src="img/plan.webp" loading="lazy" alt="The couple walking hand in hand down the aisle, laughing, as guests on both sides throw petals."></figure>
+    <div class="day__copy">
+      <p class="label reveal">(03) The day</p>
+      <h2 class="reveal">Saturday,<br>start to <em>finish</em></h2>
+      <ol class="times">
+        <li class="reveal"><time>14:30</time><span>Guests arrive<small>Come in by the south gate. Drinks are waiting.</small></span></li>
+        <li class="reveal"><time>15:00</time><span>Ceremony under the arch<small>Standing, twenty minutes, tissues provided.</small></span></li>
+        <li class="reveal"><time>15:45</time><span>Drinks on the lawn<small>And the photograph from the balcony.</small></span></li>
+        <li class="reveal"><time>17:30</time><span>Dinner in the garden room<small>Long tables, short speeches.</small></span></li>
+        <li class="reveal"><time>20:00</time><span>First dance<small>Then everybody else's.</small></span></li>
+        <li class="reveal"><time>00:30</time><span>Last song<small>Taxis from the east gate.</small></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 04 THE PLACE -->
+  <section class="place" id="place" data-rail="04|The place">
+    <figure class="place__img"><img src="img/venue.webp" loading="lazy" alt="The courtyard from a first-floor balcony: the couple under the rose arch with guests gathered round, an orange-leaved tree and red brick apartment blocks behind."></figure>
+    <div class="place__copy">
+      <p class="label reveal">(04) The place</p>
+      <h2 class="reveal">Hollin Court</h2>
+      <p class="lede reveal">The courtyard between the four blocks, where the paths cross. Follow the petals.</p>
+      <dl class="facts">
+        <div class="reveal"><dt>Address</dt><dd>1 Hollin Court, Linden Quarter<br>(an invented place)</dd></div>
+        <div class="reveal"><dt>Getting there</dt><dd>Tram 4 to Linden Square, then five minutes on foot. Parking is scarce; lifts are plentiful.</dd></div>
+        <div class="reveal"><dt>Staying over</dt><dd>Rooms are held at the Quarter House until 1 May. Mention the wedding.</dd></div>
+        <div class="reveal"><dt>If it rains</dt><dd>We move twenty metres, into the garden room. Bring a jacket either way.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- details -->
+  <section class="details" data-rail="04|Good to know" aria-label="Good to know">
+    <figure class="details__img"><img src="img/arch.webp" loading="lazy" alt="Close-up of the couple holding hands, with roses from the flower arch out of focus behind them."></figure>
+    <div class="details__grid">
+      <article class="reveal"><i class="serif">Dress</i><h3>Garden formal</h3><p>Suits and dresses, colour welcome. The ceremony is outdoors on paving, so block heels beat stilettos.</p></article>
+      <article class="reveal"><i class="serif">Gifts</i><h3>Your company</h3><p>Truly. If you would like to give something, there is a small honeymoon fund on the day.</p></article>
+      <article class="reveal"><i class="serif">Children</i><h3>Very welcome</h3><p>There is a quiet room off the garden room, and the lawn is theirs after the ceremony.</p></article>
+    </div>
+  </section>
+
+  <!-- 05 RSVP -->
+  <section class="rsvp" id="rsvp" data-rail="05|RSVP">
+    <div class="marquee" aria-hidden="true"><div class="marquee__track"><span>Say you'll come.</span><span>Say you'll come.</span><span>Say you'll come.</span><span>Say you'll come.</span><span>Say you'll come.</span><span>Say you'll come.</span></div></div>
+    <h2 class="sr-only">RSVP</h2>
+    <div class="rsvp__grid">
+      <div class="rsvp__note">
+        <p class="serif">Please reply by 1 May 2027, so the long tables are long enough.</p>
+        <p>Questions? Write to <a href="mailto:hello@naomiandelias.example">hello@naomiandelias.example</a></p>
+      </div>
+      <form class="form" novalidate>
+        <label>Your name<input type="text" name="name" autocomplete="name" required></label>
+        <label>Email<input type="email" name="email" autocomplete="email" required></label>
+        <fieldset>
+          <legend>Will you be there?</legend>
+          <label class="choice"><input type="radio" name="attending" value="yes" checked><span>Yes, with joy</span></label>
+          <label class="choice"><input type="radio" name="attending" value="no"><span>Sadly not</span></label>
+        </fieldset>
+        <label>Guests in your party<select name="guests"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+        <label class="form__wide">Anything we should know? <small>Allergies, access, a song you need to hear</small><textarea name="notes" rows="3"></textarea></label>
+        <button class="pill pill--solid" type="submit">Send reply</button>
+        <p class="form__status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+    <footer class="foot">
+      <span>Naomi &amp; Elias · 12 June 2027 (placeholder wedding)</span>
+      <span>Photographs generated with Google Flow · Scene built in Blender · CC0 assets from Poly Haven · People by Denys Almaral, suit by jetsu, dress by thanh.cao, arch by plaggy (CC BY 4.0)</span>
+    </footer>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.187.0/examples/jsm/"
+} }
+</script>
+<script src="main.js"></script>
+<script type="module" src="scene.js"></script>
+</body>
+</html>
